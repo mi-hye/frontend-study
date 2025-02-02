@@ -2,10 +2,10 @@
 
 ## 스터디 진행방식
 
--   각자 매주 수요일까지 스터디 범위에 해당하는 책의 내용을 읽어옵니다.
--   스터디 범위 안에서 4~5개의 퀴즈를 만들고, 그에 대한 퀴즈의 답변을 준비합니다.
--   준비한 문제와 답변을 각자의 원격 저장소에 저장 후 스터디 시간 한시간 전까지 **Pull Request** 요청을 합니다.
--   2명씩 짝지어 각자 준비해온 퀴즈를 풀어본 뒤, 다 같이 이야기해 볼만한 퀴즈를 모아서 스터디 참여인원 전원이 해당 퀴즈에 대해 토론하고 이야기합니다.
+- 각자 매주 수요일까지 스터디 범위에 해당하는 책의 내용을 읽어옵니다.
+- 스터디 범위 안에서 4~5개의 퀴즈를 만들고, 그에 대한 퀴즈의 답변을 준비합니다.
+- 준비한 문제와 답변을 각자의 원격 저장소에 저장 후 스터디 시간 한시간 전까지 **Pull Request** 요청을 합니다.
+- 2명씩 짝지어 각자 준비해온 퀴즈를 풀어본 뒤, 다 같이 이야기해 볼만한 퀴즈를 모아서 스터디 참여인원 전원이 해당 퀴즈에 대해 토론하고 이야기합니다.
 
 ## Pull Request 진행방식
 
@@ -15,7 +15,7 @@
 4. 매주 문제와 답변을 저장하고 `Pull Request`를 요청합니다.
 5. 요청한 `Pull Request`를 모두 merge 한 후, 스터디를 진행합니다.
 
--   `Pull Request` 를 요청하는 방법은 [링크](https://github.com/woowacourse/woowacourse-docs/tree/main/precourse#7-%EB%B3%B8%EC%9D%B8-%EC%9B%90%EA%B2%A9-%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90-%EC%98%AC%EB%A6%AC%EA%B8%B0)를 참고합니다.
+- `Pull Request` 를 요청하는 방법은 [링크](https://github.com/woowacourse/woowacourse-docs/tree/main/precourse#7-%EB%B3%B8%EC%9D%B8-%EC%9B%90%EA%B2%A9-%EC%A0%80%EC%9E%A5%EC%86%8C%EC%97%90-%EC%98%AC%EB%A6%AC%EA%B8%B0)를 참고합니다.
 
 ## 폴더구조
 
@@ -23,8 +23,8 @@
 ${topic}/${nickname}/${week_name}/
 ```
 
--   문제 저장 예시) `javascript/schnee/week1/questions.md`
--   답변 저장 예시) `javascript/schnee/week1/solutions.md`
+- 문제 저장 예시) `javascript/schnee/week1/questions.md`
+- 답변 저장 예시) `javascript/schnee/week1/solutions.md`
 
 ## Git Commit 컨벤션
 
@@ -45,12 +45,14 @@ ${topic}/${nickname}/${week_name}/
 각자의 원격 저장소에 저장을 할 때, 위 Git Commit 컨벤션을 참고하여 커밋을 작성합니다.
 
 ## 주제
+
 <table>
   <thead>
     <tr>
-      <th>JavaScript</th>
-      <th>React</th>
-      <th>TypeScript</th>
+      <th style="text-align: center;">JavaScript</th>
+      <th style="text-align: center;">React</th>
+      <th style="text-align: center;">TypeScript</th>
+      <th style="text-align: center;">Next.js</th>
     </tr>
   </thead>
   <tbody>
@@ -60,10 +62,15 @@ ${topic}/${nickname}/${week_name}/
         <img src="https://github.com/user-attachments/assets/a17105c5-efd9-4314-92c8-4473eab16a4e" alt="Modern React Deep Dive" width="200" height="250">
         <br>
         <a href="https://ko.react.dev/learn">
-          <img src="https://github.com/user-attachments/assets/448321eb-2734-48b6-b6f1-c30faf108f8c" alt="[react-learn-docs](https://ko.react.dev/learn)" width="350" height="190">
+          <img src="https://github.com/user-attachments/assets/448321eb-2734-48b6-b6f1-c30faf108f8c" alt="[react-learn-docs](https://ko.react.dev/learn)" width="200" >
         </a>
       </td>
       <td><img src="https://github.com/user-attachments/assets/4889a7a2-f11d-47da-a801-67dc73bd1ad7" alt="Effective TypeScript" width="200" height="250"></td>
+      <td align="center">
+        <a href="https://nextjs.org/learn">
+          <img src="https://github.com/user-attachments/assets/bf1ea36f-d5a1-444f-87e0-00ba0e57be91" alt="[nextjs-learn-docs]" width="200" >
+        </a>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -72,8 +79,8 @@ ${topic}/${nickname}/${week_name}/
   <summary>주차 별 주제</summary>
   <div>
     
-| Week                 | 주제 (JavaScript)                                                                                                 | 주제 (React)                                                                                              | 주제 (TypeScript)                                                                                             |
-| -------------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Week                 | 주제 (JavaScript)                                                                                                 | 주제 (React)                                                                                              | 주제 (TypeScript)                                                                                             | 주제(Next.js) | 
+| -------------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |------------------------------------------------------------------------------------------------------------- |
 | Week 1 (2024/03/06)  | ▣ 4장: 변수와 상수 <br> ▣ 6장: 데이터 타입 <br> [Week 1 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/javascript/week1)  |                                                                                                            |                                                                                                                |
 | Week 2 (2024/03/13)  | ▣ 23장: 실행 컨텍스트 <br> [Week 2 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/javascript/week2)                     |                                                                                                            |                                                                                                                |
 | Week 3 (2024/03/19)  | ▣ 24장: 클로저 <br> [Week 3 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/javascript/week3)                     |                                                                                                            |                                                                                                                |
@@ -101,7 +108,22 @@ ${topic}/${nickname}/${week_name}/
 | Week 25 (2024/08/29) |                                                                                                                   | ▣ [Effect에서 이벤트 분리하기](https://ko.react.dev/learn/separating-events-from-effects) <br> [Week 25 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/react/week25)                    |                                                                                                                |
 | Week 26 (2024/09/06) |  |   | ▣ 1장: 타입스크립트 알아보기 <br> [Week 26 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week26) |
 | Week 27 (2024/09/13) |  |   | ▣ 2장: 타입스크립트의 타입 시스템 <br> ▣ 아이템6: 편집기를 사용하여 타입 시스템 탐색하기 <br> ▣ 아이템7: 타입이 값들의 집합이라고 생각하기 <br> ▣ 아이템8: 타입 공간과 값 공간의 심벌 구분하기 <br> [Week 27 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week27) |
-
+| Week 28 (2024/09/19) |  |   | ▣ 2장: 타입스크립트의 타입 시스템 <br> ▣ 아이템9 : 타입 단언보다는 타입 선언을 사용하기 <br> ▣ 아이템10 : 객체 래퍼 타입 피하기 <br> ▣ 아이템11 : 잉여 속성 체크의 한계 인지하기 <br> ▣ 아이템12 : 함수 표현식에 타입 적용하기 <br> ▣ 아이템13 : 타입과 인터페이스 차이점 알기 <br> ▣ 아이템14 : 타입 연산과 제너릭 사용으로 반복줄이기 <br> [Week 28 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week28) |
+| Week 29 (2024/09/27) |  |   | ▣ 2장: 타입스크립트의 타입 시스템 <br> ▣ 아이템15 : 동적 데이터에 인덱스 시그니처 사용하기 <br> ▣ 아이템16 : number 인덱스 시그니처보다는 Array, 튜플, ArrayLike를 사용하기 <br> ▣ 아이템17 : 변경 관련된 오류 방지를 위해 readonly 사용하기 <br> ▣ 아이템18 : 매핑된 타입을 사용하여 값을 동기화하기 <br> [Week 29 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week29) |
+| Week 30 (2024/10/02) |  |   | ▣ 3장 : 타입 추론 <br/> ▣ 아이템19 : 추론 가능한 타입을 사용해 장황한 코드 방지하기 <br/> ▣ 아이템20 : 다른 타입에는 다른 변수 사용하기 <br/> ▣ 아이템21 : 타입 넓히기 <br/> ▣ 아이템22 : 타입 좁히기 <br> [Week 30 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week30) |
+| Week 31 (2024/10/08) |  |   | ▣ 3장 : 타입 추론 <br/> ▣ 아이템23 : 한꺼번에 객체 생성하기 <br/> ▣ 아이템24 : 일관성 있는 별칭 사용하기 <br/> ▣ 아이템25 : 비동기 코드에는 콜백 대신 async 함수 사용하기 <br/> ▣ 아이템26 : 타입 추론에 문맥이 어떻게 사용되는지 이해하기 <br/> ▣ 아이템27 : 함수형 기법과 라이브러리로 타입 흐름 유지하기 <br> [Week 31 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week31) |
+| Week 32 (2024/10/16) |  |   | ▣ 4장 : 타입 설계 <br/> ▣ 아이템28 : 유효한 상태만 표현하는 타입을 지향하기 <br/> ▣ 아이템29 : 사용할 때는 너그럽게, 생성할 때는 엄격하게 <br/> ▣ 아이템30 : 문서에 타입 정보를 쓰지 않기 <br/> ▣ 아이템31 : 타입 주변에 null 값 배치하기 <br/> ▣ 아이템32 : 유니온 인터페이스보다는 인터페이스의 유니온을 사용하기 <br/> [Week 32 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week32) |
+| Week 33 (2024/10/23) |  |   | ▣ 4장 : 타입 설계 <br/> ▣ 아이템33 : string타입보다 더 구체적인 타입 사용하기 <br/> ▣ 아이템34 : 부정확한 타입보다는 미완성 타입을 사용하기 <br/> ▣ 아이템35 : 데이터가 아닌, API와 명세를 보고 타입 만들기 <br/> ▣ 아이템36 : 해당 분야의 용어로 타입 이름 짓기 <br/> ▣ 아이템37 : 공식 명칭에는 상표를 붙이기 <br/> [Week 33 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week33) |
+| Week 34 (2024/10/29) |  |   | ▣ 5장 : any 다루기 <br/> ▣ ㄴ 아이템 38: any 타입은 가능한 한 좁은 범위에서만 사용하기 <br/> ▣ ㄴ 아이템 39: any를 구체적으로 변형해서 사용하기 <br/> ▣ ㄴ 아이템 40: 함수 안으로 타입 단언문 감추기 <br/> ▣ ㄴ 아이템 41: any의 진화를 이해하기 <br/> ▣ ㄴ 아이템 42: 모르는 타입의 값에는 any 대신 unknown을 사용하기 <br/> ▣ ㄴ 아이템 43: 몽키 패치보다는 안전한 타입을 사용하기 <br/> ▣ ㄴ 아이템 44: 타입 커버리지를 추적하여 타입 안전성 유지하기 <br/> [Week 34 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week34) |
+| Week 35 (2024/11/10) |  |   | ▣ 6장 : 타입 선언과 @types <br/> ▣ 아이템 45: devDependencies에 typescript와 @types 추가하기 <br/> ▣ 아이템 49: 콜백에서 this에 대한 타입 제공하기 <br/> ▣ 아이템 50: 오버로딩 타입보다는 조건부 타입을 사용하기 <br/> ▣ 아이템 51: 의존성 분리를 위해 미러 타입을 사용하기 <br/> ▣ 아이템 52: 테스팅 타입의 함정에 주의하기 <br/> [Week 35 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week35) |
+| Week 36 (2024/11/17) |  |   | ▣ 7장: 코드를 작성하고 실행하기 <br/> ▣ 아이템 53: 타입스크립트 기능보다는 ECMAScript 기능을 사용하기 <br/>▣ 아이템 54: 객체를 순회하는 노하우 <br/>▣ 아이템 55: DOM 계층 구조 이해하기 <br/>▣ 아이템 56: 정보를 감추는 목적으로 private 사용하지 않기 <br/>▣ 아이템 57: 소스맵을 사용하여 타입스크립트 디버깅하기 <br/> [Week 36 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/typescript/week36) |
+| Week 37 (2024/12/01) |  |   |  |▣ dashboard <br/> ▣ [챕터1 Getting Started](https://nextjs.org/learn/dashboard-app/getting-started) <br/>▣ [챕터2 CSS Styling](https://nextjs.org/learn/dashboard-app/css-styling)<br/> ▣ [챕터3 Font/Image 최적화](https://nextjs.org/learn/dashboard-app/optimizing-fonts-images) <br/>▣ [챕터4 레이아웃과 페이지](https://nextjs.org/learn/dashboard-app/creating-layouts-and-pages) <br/> [Week 37 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/nextjs/week37)|
+| Week 38 (2024/12/08) |  |   |  |▣ dashboard <br/> ▣ [챕터5 페이지 탐색](https://nextjs.org/learn/dashboard-app/navigating-between-pages) <br/>▣ [챕터6 데이터베이스 설정](https://nextjs.org/learn/dashboard-app/setting-up-your-database)<br/> ▣ [챕터7 데이터 가져오기](https://nextjs.org/learn/dashboard-app/fetching-data) <br/>▣ [챕터8 정적 및 동적 렌더링](https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering) <br/> [Week 38 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/nextjs/week38)|
+| Week 39 (2024/12/15) |  |   |  |▣ dashboard <br/> ▣ [챕터9 스트리밍](https://nextjs.org/learn/dashboard-app/streaming) <br/>▣ [챕터10 부분 사전 렌더링](https://nextjs.org/learn/dashboard-app/partial-prerendering) <br/>▣ [챕터11 검색, 페이징](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination) <br/>▣ [챕터12 데이터 변형](https://nextjs.org/learn/dashboard-app/mutating-data) <br/> [Week 39 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/nextjs/week39)|
+| Week 40 (2024/12/22) |  |   |  |▣ dashboard <br/>▣ [챕터13 에러 처리](https://nextjs.org/learn/dashboard-app/error-handling) <br/> ▣ [챕터14 접근성 향상](https://nextjs.org/learn/dashboard-app/improving-accessibility) <br/>▣ [챕터15 인증 추가하기](https://nextjs.org/learn/dashboard-app/adding-authentication)<br/>▣ [챕터16 메타데이터 추가하기](https://nextjs.org/learn/dashboard-app/adding-metadata)<br/> [Week 40 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/nextjs/week40)|
+| Week 41 (2025/01/05) |  |   |  |▣ Docs <br/>▣ Routing - [Layouts and Templates](https://github.com/vercel/next.js/blob/canary/docs/01-app/03-building-your-application/01-routing/03-layouts-and-templates.mdx) <br/>▣ Routing - [Linking and Navigating](https://nextjs.org/docs/app/building-your-application/routing/linking-and-navigating) <br/>▣ Routing - [Error Handling](https://nextjs.org/docs/app/building-your-application/routing/error-handling)<br/>[Week 41 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/nextjs/week41)|
+| Week 42 (2025/01/12) |  |   |  |▣ Docs <br/>▣ Routing - [Loading UI and Streaming](https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming)<br/>▣ Routing - [Redirecting](https://nextjs.org/docs/app/building-your-application/routing/redirecting)<br/>▣ Routing - [Route Groups](https://nextjs.org/docs/app/building-your-application/routing/route-groups)<br/>[Week 42 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/nextjs/week42)|
+| Week 43 (2025/01/19) |  |   |  |▣ Docs <br/>▣ Routing - [Dynamic Routes](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes)<br/> ▣ Routing - [Parallel Routes](https://nextjs.org/docs/app/building-your-application/routing/parallel-routes)<br/> ▣ Routing - [Intercepting Routes](https://nextjs.org/docs/app/building-your-application/routing/intercepting-routes)<br/>[Week 43 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/nextjs/week43)|
+| Week 44 (2025/01/26) |  |   |  |▣ Docs <br/>▣ Routing - [Route Handlers](https://nextjs.org/docs/app/building-your-application/routing/route-handlers)<br/>▣ Routing - [Middleware](https://nextjs.org/docs/app/building-your-application/routing/middleware)<br/>▣ Routing - [Internationalization](https://nextjs.org/docs/app/building-your-application/routing/internationalization)<br/>[Week 44 - Question](https://github.com/minjeongHEO/frontend-study/tree/main/nextjs/week44)|
   </div>
 </details>
-
